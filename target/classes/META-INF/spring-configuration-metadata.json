@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "bfh",
+      "type": "com.example.bfh.config.AppProperties",
+      "sourceType": "com.example.bfh.config.AppProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "bfh.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.example.bfh.config.AppProperties"
+    },
+    {
+      "name": "bfh.default-submit-path",
+      "type": "java.lang.String",
+      "sourceType": "com.example.bfh.config.AppProperties"
+    },
+    {
+      "name": "bfh.email",
+      "type": "java.lang.String",
+      "sourceType": "com.example.bfh.config.AppProperties"
+    },
+    {
+      "name": "bfh.generate-path",
+      "type": "java.lang.String",
+      "sourceType": "com.example.bfh.config.AppProperties"
+    },
+    {
+      "name": "bfh.name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.bfh.config.AppProperties"
+    },
+    {
+      "name": "bfh.reg-no",
+      "type": "java.lang.String",
+      "sourceType": "com.example.bfh.config.AppProperties"
+    },
+    {
+      "name": "bfh.store-path",
+      "type": "java.lang.String",
+      "sourceType": "com.example.bfh.config.AppProperties"
+    },
+    {
+      "name": "bfh.use-bearer-prefix",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.bfh.config.AppProperties"
+    }
+  ],
+  "hints": []
+}
