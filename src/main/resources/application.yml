@@ -1,0 +1,15 @@
+
+spring:
+  main:
+    web-application-type: none  # no web endpoints needed
+
+bfh:
+  name: ${BFH_NAME:John Doe}
+  regNo: ${BFH_REG_NO:REG12347}
+  email: ${BFH_EMAIL:john@example.com}
+  baseUrl: "https://bfhldevapigw.healthrx.co.in"
+  generatePath: "/hiring/generateWebhook/JAVA"
+  defaultSubmitPath: "/hiring/testWebhook/JAVA"
+  storePath: "finalQuery.sql"
+  # If true, prefix Authorization header with 'Bearer '
+  useBearerPrefix: false
